@@ -83,27 +83,15 @@ section p{
 }
 .envio{
     grid-area: envio;
-    align-items: center;
-    justify-content:center;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
+    @include rapida;
 }
 .cuotas{
     grid-area: cuotas;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
+    @include rapida;
 }
 .whatsapp{
     grid-area: whatsapp;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
+    @include rapida;
 }
 .icon-envio{
     height: 40px;

@@ -1,0 +1,11 @@
+.breadcrumb{
+    position: relative;
+    background:  rgb(225, 195, 231);
+    margin-bottom: 0px;
+    .crumb-inner {
+            p{
+                font-size: 15px;
+                color: rgb(28, 2, 30);
+            }
+    }
+}

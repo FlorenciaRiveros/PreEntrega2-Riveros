@@ -1,6 +1,12 @@
-@import "variablesglobales";
+@import "variableglobal";
 @import "generales";
+@import "extends";
 @import "productos";
+@import "novedades";
+@import "accesorios";
+@import "maquillaje";
+@import "sale";
+@import "skincare";
 @import "breadcrumbs";
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Carrois+Gothic+SC&family=Gafata&family=Nunito:ital,wght@0,300;0,400;1,200&family=Yusei+Magic&display=swap');
 
@@ -203,7 +209,7 @@ section p{
     }
 }
 /* Formulario */
-h1 {
+.h1form {
     font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 600;
     font-size: 72px;

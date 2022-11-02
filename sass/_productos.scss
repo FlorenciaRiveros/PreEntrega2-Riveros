@@ -27,4 +27,15 @@ $precioproducto: rgb(18, 150, 86);
         }
 }
 
-
+.row{
+    --bs-gutter-x: 0;
+}
+.product-top .product-sec h5{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.product-cate img{
+    width: 100%;
+}

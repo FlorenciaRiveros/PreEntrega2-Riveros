@@ -1,0 +1,93 @@
+.input-contacto:focus~label,
+textarea:focus~label,
+.input-contacto:valid~label,
+textarea:valid~label {
+    font-size: 0.75em;
+    color: rgb(116, 101, 101);
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.styled-input label {
+    color: rgb(125, 9, 91);
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide {
+    width: 650px;
+    max-width: 100%;
+}
+
+.input-contacto,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #f7b0f8;
+    color: white;
+    border-radius: 4px;
+}
+
+.input-contacto:focus,
+textarea:focus {
+    outline: 0;
+}
+
+.input-contacto:focus~span,
+textarea:focus~span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+input[type=checkbox]+label {
+    color: #ccc;
+    font-style: italic;
+}
+
+input[type=checkbox]:checked+label {
+    color: #f00;
+    font-style: normal;
+}
+.h1form {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: rgb(151, 73, 179);
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: #9b9b9b;
+    line-height: 1.5;
+}

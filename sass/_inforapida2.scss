@@ -1,0 +1,45 @@
+.info-rapida{
+    background-color: rgba(248, 203, 250, 0.445);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px;
+    grid-template-areas:
+    "envio cuotas whatsapp";
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.info-rapida h3{
+    font-size: mmedium;
+    color: #622363;
+}
+.envio{
+    grid-area: envio;
+    @include rapida;
+}
+.cuotas{
+    grid-area: cuotas;
+    @include rapida;
+}
+.whatsapp{
+    grid-area: whatsapp;
+    @include rapida;
+}
+.icon-envio{
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+}
+.icon-cuotas{
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+}
+.icon-wpp{
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+}

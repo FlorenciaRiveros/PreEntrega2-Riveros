@@ -1,0 +1,52 @@
+.side-area{
+    margin-bottom: 20px;
+}
+.side-area:last-child{
+    margin-bottom: 0px;
+}
+.product-side .side-content{
+    border-bottom: 1px solid rgb(210, 172, 172);
+}
+.product-side .side-content:last-child{
+    border-bottom: 0px;
+}
+.product-side .list{
+    border-top: 1px solid rgb(242, 190, 190);
+    padding-top: 25px;
+    margin-top: 25px;
+    list-style: none;
+}
+.product-side .list:first-child{
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0px solid transparent;
+}
+.product-side .list li{
+    margin-bottom: 18px;
+    transition: 0.5s;
+}
+.product-side .list li a{
+    font-size: 14px;
+    font-weight: normal;
+    color:  rgb(160, 54, 182);
+    position: relative;
+    text-decoration: none;
+}
+.filter{
+    padding: 10px;
+}
+.side-shadow{
+    box-shadow: 0px 10px 10px 0px  rgb(225, 195, 231);
+} 
+
+.side-title h3{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(45, 26, 45);
+    font-weight: 600;
+    line-height: 40px;
+    position: relative;
+    background:  rgb(225, 195, 231);
+    padding: 10px 15px 10px 30px;
+    text-transform: uppercase;
+}

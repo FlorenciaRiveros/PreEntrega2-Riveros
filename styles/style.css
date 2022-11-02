@@ -115,76 +115,21 @@ footer .icon-trans:hover {
   text-align: center;
 }
 
-.breadcrumb {
-  position: relative;
-  background: rgb(225, 195, 231);
-  margin-bottom: 0px;
-}
-.breadcrumb .crumb-inner p {
-  font-size: 15px;
-  color: rgb(28, 2, 30);
+.row {
+  --bs-gutter-x: 0;
 }
 
-/* Index */
-.main h2 {
-  color: rgb(179, 102, 167);
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.26);
+.product-top .product-sec h5 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0;
 }
 
-.main p {
-  background-color: rgba(240, 238, 238, 0.699);
-  text-align: center;
-  padding: 15px;
-  margin: 15px;
-}
-
-.main-sections img {
+.product-cate img {
   width: 100%;
-  height: 400px;
-  margin-bottom: 30px;
 }
 
-.category img {
-  width: 200px;
-}
-
-.marcas {
-  color: rgb(95, 23, 84);
-  text-align: center;
-  align-items: center;
-  background-color: rgba(250, 235, 215, 0.63);
-}
-
-.marcas img:hover {
-  transform: scale(1.2);
-}
-
-.categorias {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 100px;
-}
-
-.cateogy-makeup {
-  padding: 10px;
-}
-
-.category-accesorios {
-  padding: 10px;
-}
-
-.category-skincare {
-  padding: 10px;
-}
-
-section p {
-  padding: 20px;
-}
-
-/* Info Index */
 .info-rapida {
   background-color: rgba(248, 203, 250, 0.445);
   width: 100%;
@@ -248,8 +193,132 @@ section p {
   width: 40px;
 }
 
-/* Breadcrumb */
-/*Sidebar*/
+.breadcrumb {
+  position: relative;
+  background: rgb(225, 195, 231);
+  margin-bottom: 0px;
+}
+.breadcrumb .crumb-inner p {
+  font-size: 15px;
+  color: rgb(28, 2, 30);
+}
+
+@media (max-width: 992px) {
+  .side-title {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .product-item {
+    width: 100%;
+  }
+  .product-btn {
+    height: 50px;
+    width: 140px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .styled-input {
+    width: 100%;
+  }
+}
+.input-contacto:focus ~ label,
+textarea:focus ~ label,
+.input-contacto:valid ~ label,
+textarea:valid ~ label {
+  font-size: 0.75em;
+  color: rgb(116, 101, 101);
+  top: -5px;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+.styled-input label {
+  color: rgb(125, 9, 91);
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+}
+
+.input-contacto,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #f7b0f8;
+  color: white;
+  border-radius: 4px;
+}
+
+.input-contacto:focus,
+textarea:focus {
+  outline: 0;
+}
+
+.input-contacto:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+.h1form {
+  font-family: "Poppins", sans-serif, "arial";
+  font-weight: 600;
+  font-size: 72px;
+  color: rgb(151, 73, 179);
+  text-align: center;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif, "arial";
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9b9b;
+  line-height: 1.5;
+}
+
 .side-area {
   margin-bottom: 20px;
 }
@@ -300,12 +369,6 @@ section p {
   box-shadow: 0px 10px 10px 0px rgb(225, 195, 231);
 }
 
-@media (max-width: 992px) {
-  .side-title {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
 .side-title h3 {
   margin-bottom: 20px;
   font-size: 14px;
@@ -318,138 +381,63 @@ section p {
   text-transform: uppercase;
 }
 
-/* Productos */
-@media (max-width: 992px) {
-  .product-item {
-    width: 100%;
-  }
-}
-.row {
-  --bs-gutter-x: 0;
-}
-
-.product-top .product-sec h5 {
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: capitalize;
-  margin-bottom: 0;
-}
-
-.product-cate img {
-  width: 100%;
-}
-
-@media (max-width: 992px) {
-  .product-btn {
-    height: 50px;
-    width: 140px;
-    line-height: 50px;
-  }
-}
-/* Formulario */
-.h1form {
-  font-family: "Poppins", sans-serif, "arial";
-  font-weight: 600;
-  font-size: 72px;
-  color: rgb(151, 73, 179);
+/* Index */
+.main h2 {
+  color: rgb(179, 102, 167);
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.26);
 }
 
-h4 {
-  font-family: "Roboto", sans-serif, "arial";
-  font-weight: 400;
-  font-size: 20px;
-  color: #9b9b9b;
-  line-height: 1.5;
+.main p {
+  background-color: rgba(240, 238, 238, 0.699);
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
 }
 
-/* inputs*/
-.input-contacto:focus ~ label,
-textarea:focus ~ label,
-.input-contacto:valid ~ label,
-textarea:valid ~ label {
-  font-size: 0.75em;
-  color: rgb(116, 101, 101);
-  top: -5px;
-  transition: all 0.225s ease;
-}
-
-.styled-input {
-  float: left;
-  width: 293px;
-  margin: 1rem 0;
-  position: relative;
-  border-radius: 4px;
-}
-
-@media only screen and (max-width: 768px) {
-  .styled-input {
-    width: 100%;
-  }
-}
-.styled-input label {
-  color: rgb(125, 9, 91);
-  padding: 1.3rem 30px 1rem 30px;
-  position: absolute;
-  top: 10px;
-  left: 0;
-  transition: all 0.25s ease;
-  pointer-events: none;
-}
-
-.styled-input.wide {
-  width: 650px;
-  max-width: 100%;
-}
-
-.input-contacto,
-textarea {
-  padding: 30px;
-  border: 0;
+.main-sections img {
   width: 100%;
-  font-size: 1rem;
-  background-color: #f7b0f8;
-  color: white;
-  border-radius: 4px;
+  height: 400px;
+  margin-bottom: 30px;
 }
 
-.input-contacto:focus,
-textarea:focus {
-  outline: 0;
+.imgcat {
+  width: 200px;
 }
 
-.input-contacto:focus ~ span,
-textarea:focus ~ span {
-  width: 100%;
-  transition: all 0.075s ease;
+.marcas {
+  color: rgb(95, 23, 84);
+  text-align: center;
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.63);
 }
 
-textarea {
-  width: 100%;
-  min-height: 15em;
+.marcas img:hover {
+  transform: scale(1.2);
 }
 
-.input-container {
-  width: 650px;
-  max-width: 100%;
-  margin: 20px auto 25px auto;
+.categorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
 }
 
-@media (max-width: 768px) {
-  .submit-btn {
-    width: 100%;
-    float: none;
-    text-align: center;
-  }
-}
-input[type=checkbox] + label {
-  color: #ccc;
-  font-style: italic;
+.cateogy-makeup {
+  padding: 10px;
 }
 
-input[type=checkbox]:checked + label {
-  color: #f00;
-  font-style: normal;
+.category-accesorios {
+  padding: 10px;
+}
+
+.category-skincare {
+  padding: 10px;
+}
+
+section p {
+  padding: 20px;
 }
 
 @media (max-width: 576px) {
@@ -484,10 +472,10 @@ input[type=checkbox]:checked + label {
     padding: 10px;
     gap: 10px;
   }
-  .categorias img {
+  .imgcat {
     width: 100%;
   }
-  .cateogy-makeup {
+  .category-makeup {
     grid-area: makeup;
   }
   .category-skincare {
